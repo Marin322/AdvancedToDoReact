@@ -1,5 +1,8 @@
+import { AuthModal } from "../../../features/auth-by-email"
 export const AuthPage = () => {
     return (
-        <div>sad</div>
+        <div>
+            <AuthModal/>
+        </div>
     )
 }

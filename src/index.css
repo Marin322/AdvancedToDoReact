@@ -2,7 +2,7 @@
 
 @theme {
     --color-main-bg: #ffffff;
-    --color-background-secondary: #f7fafe;
+    --color-secondary-bg: #f7fafe;
 
     --color-background-levelbg: #e0e1e1;
 
@@ -10,4 +10,9 @@
     --color-border-secondary: #eceded;
 
     --color-text-main: #000000;
+    --color-text-secondary: #ffffff;
+
+    --color-button-main-bg: #dc43fb;
+
+    --color-input-main-bg: #fdfdfd;
 }
