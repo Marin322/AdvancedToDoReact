@@ -17,7 +17,7 @@ export const Input = ({
           error ? "border-red-500" : ""
         }`}
       />
-      {error ?? (
+      {error && (
         <span className="text-red-500 text-xs font-medium animate-in fade-in slide-in-from-top-1 ml-1">{error}</span>
       )}
     </div>

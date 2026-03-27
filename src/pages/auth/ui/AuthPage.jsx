@@ -1,8 +1,14 @@
-import { AuthModal } from "../../../features/auth-by-email"
+import { useState } from "react";
+import { AuthModal } from "../../../features/auth-by-email";
+import { Loader } from "../../../shared";
 export const AuthPage = () => {
-    return (
-        <div>
-            <AuthModal/>
-        </div>
-    )
-}
+  const [load, setLoad] = useState(false);
+  return (
+    <div>
+      <AuthModal />
+      {load && (
+        <Loader/>
+      )}
+    </div>
+  );
+};
