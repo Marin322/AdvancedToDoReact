@@ -39,7 +39,7 @@ export const LoginForm = () => {
         name="password"
         onChange={handleChange}
       />
-      <Button children="Войти" className="mt-4" onClick={handleSubmit} />
+      <Button children="Войти" className="mt-4 shadow-lg shadow-purple-700" onClick={handleSubmit}/>
     </div>
   );
 };
