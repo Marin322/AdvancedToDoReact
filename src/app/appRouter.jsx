@@ -22,7 +22,9 @@ export const appRouter = createBrowserRouter([
       {
         path: "/",
         element: (
+          <ProtectedRoute>
             <MainPage />
+          </ProtectedRoute>
         ),
       },
     ],
